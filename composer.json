@@ -15,5 +15,12 @@
         "psr-4": {
             "Hammad\\Contact\\": "src/"
         }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Hammad\\Contact\\ContactServiceProvider"
+        ]
+    }
     }
 }

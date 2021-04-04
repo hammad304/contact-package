@@ -1,0 +1,19 @@
+{
+    "name": "hammad/contact",
+    "description": "This will  send email to  admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "author":[
+    	{
+    		"name":"hammad",
+    		"email":"hammadsyed304@gmail.com"
+    	}
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+     "autoload": {
+        "psr-4": {
+            "Hammad\\Contact\\": "src/"
+        }
+    },
+}
